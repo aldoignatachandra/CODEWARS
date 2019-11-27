@@ -27,3 +27,6 @@ function getCount (str) {
 
     return vowelsCount;
 }
+
+//TEST
+console.log(getCount("ARKADEMY"));

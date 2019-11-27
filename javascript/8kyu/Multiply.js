@@ -9,3 +9,6 @@ Just For Register CODEWARS
 function multiply (a, b) {
     return a * b
 }
+
+//TEST
+console.log(multiply(10,7));
