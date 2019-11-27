@@ -17,4 +17,4 @@ this repo. Codewars is a site where programmers can practice programming challen
 
 ### [ 🗡 User : aldoignatachandra ](https://www.codewars.com/users/aldoignatachandra)
 
-### [ 🛡    Clan : Hacktiv8 ](https://www.codewars.com/users/aldoignatachandra)
+### [  🛡 Clan : Hacktiv8 ](https://www.codewars.com/users/aldoignatachandra)
