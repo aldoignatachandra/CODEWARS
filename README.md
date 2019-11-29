@@ -19,7 +19,7 @@ this repo. Codewars is a site where programmers can practice programming challen
 
 ### [ 🛡 Clan : Hacktiv8 ](https://www.codewars.com/users/aldoignatachandra)
 
-### IDE
+## IDE
 [Visual Studio Code](https://code.visualstudio.com) is a great free IDE that comes with many [plugins](https://marketplace.visualstudio.com/vscode). Some configuration files are provided and a [Bash](https://www.gnu.org/software/bash/) initialization file.
 
 ## License
