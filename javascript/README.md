@@ -20,7 +20,7 @@
 | 14  |                 [Remove String Spaces](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/8kyu/RemoveStringSpaces.js)                 | JavaScript |
 | 15  |                     [Return Negative](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/8kyu/ReturnNegative.js)                      | JavaScript |
 | 16  |                    [Reversed Strings](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/8kyu/ReversedStrings.js)                     | JavaScript |
-| 17  |                       [Square(n) Sum](<https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/8kyu/Square(n)Sum.js)                       | JavaScript |
+| 17  |                      [Square(n) Sum](<https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/8kyu/Square(n)Sum.js>)                       | JavaScript |
 | 18  |                       [String Repeat](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/8kyu/StringRepeat.js)                        | JavaScript |
 
 #
