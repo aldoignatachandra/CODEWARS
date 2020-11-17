@@ -1,6 +1,7 @@
 <h1 align="center">CODEWARS</h1>
 
 ## What is CodeWars ?
+
 <p align="justify">
 It's a cool website where you face challenges and you get leveled by how good
 you do. It isn't limited to JavaScript or any or the languages you can find in
@@ -20,7 +21,9 @@ this repo. Codewars is a site where programmers can practice programming challen
 ### [ 🛡 Clan : Hacktiv8 ](https://www.codewars.com/users/aldoignatachandra)
 
 ## IDE
+
 [Visual Studio Code](https://code.visualstudio.com) is a great free IDE that comes with many [plugins](https://marketplace.visualstudio.com/vscode). Some configuration files are provided and a [Bash](https://www.gnu.org/software/bash/) initialization file.
 
 ## License
+
 [Unlicense](http://unlicense.org) aka. Public Domain &#x1F918;

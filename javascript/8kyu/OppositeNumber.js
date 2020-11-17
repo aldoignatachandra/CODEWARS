@@ -11,9 +11,11 @@ Examples:
 */
 
 //ANSWER
-function opposite (number) {
-    return number * -1
+function opposite(number) {
+  return number * -1;
 }
 
 //TEST
-console.log(opposite(17));
+console.log("TEST 1 =>", opposite(17));
+console.log("TEST 2 =>", opposite(-1));
+console.log("TEST 3 =>", opposite(10));

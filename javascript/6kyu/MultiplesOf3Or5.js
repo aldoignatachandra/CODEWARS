@@ -9,7 +9,7 @@ Note: If the number is a multiple of both 3 and 5, only count it once.
 */
 
 //ANSWER
-function solution (number) {
+function solution(number) {
   var sum = 0;
   for (var i = 0; i < number; i++) {
     if (i % 3 === 0 || i % 5 === 0) {
@@ -20,4 +20,6 @@ function solution (number) {
 }
 
 //TEST
-console.log(solution(10));
+console.log("TEST 1 =>", solution(10));
+console.log("TEST 2 =>", solution(3));
+console.log("TEST 3 =>", solution(5));
