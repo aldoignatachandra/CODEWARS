@@ -1,5 +1,3 @@
-## Codewars Solutions
-
 ### 8 Kyu
 
 | No  |                                                                          Challenge                                                                          |  Solution  |
@@ -29,9 +27,13 @@
 
 ### 7 Kyu
 
-| No  |                                               Challenge                                                |  Solution  |
-| :-: | :----------------------------------------------------------------------------------------------------: | :--------: |
-|  1  | [Vowel Count](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/VowelCount.js) | JavaScript |
+| No  |                                                             Challenge                                                             |  Solution  |
+| :-: | :-------------------------------------------------------------------------------------------------------------------------------: | :--------: |
+|  1  |              [Vowel Count](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/VowelCount.js)               | JavaScript |
+|  2  |                 [Mumbling](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/Mumbling.js)                 | JavaScript |
+|  3  |           [List Filtering](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/ListFiltering.js)            | JavaScript |
+|  4  | [Get The Middle Character](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/GetTheMiddleCharacter.js.js) | JavaScript |
+|  5  |      [Highest And Lowest](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/HighestAndLowest.js.js)       | JavaScript |
 
 #
 
