@@ -23,3 +23,4 @@ function solution(number) {
 console.log("TEST 1 =>", solution(10));
 console.log("TEST 2 =>", solution(3));
 console.log("TEST 3 =>", solution(5));
+console.log("TEST 4 =>", solution(7));
