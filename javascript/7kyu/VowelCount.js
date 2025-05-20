@@ -1,5 +1,5 @@
-//Aldo Ignata Chandra
-//Vowel Count
+// Aldo Ignata Chandra
+// Vowel Count
 
 /* TASK
 Return the number (count) of vowels in the given string.
@@ -7,13 +7,12 @@ We will consider a, e, i, o, and u as vowels for this Kata.
 The input string will only consist of lower case letters and/or spaces.
 */
 
-//ANSWER
-//Short Version
+// SOLUTION ( Short Version )
 function getCount(str) {
   return (str.match(/[aeiou]/gi) || []).length;
 }
 
-//Long Version
+// SOLUTION ( Long Version )
 function getCount(str) {
   var vowelsCount = 0;
   var vowel_list = "aeiouAEIOU";
@@ -27,7 +26,7 @@ function getCount(str) {
   return vowelsCount;
 }
 
-//TEST
+// TEST CASE
 console.log("TEST 1 =>", getCount("ARKADEMY"));
 console.log("TEST 2 =>", getCount("ALDO"));
 console.log("TEST 3 =>", getCount("VIRUS"));

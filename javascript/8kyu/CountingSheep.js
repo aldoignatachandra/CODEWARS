@@ -1,5 +1,5 @@
-//Aldo Ignata Chandra
-//Counting sheep...
+// Aldo Ignata Chandra
+// Counting sheep...
 
 /* TASK
 Consider an array/list of sheep where some sheep may be missing from their place. 
@@ -20,13 +20,12 @@ For example,
   Hint: Don't forget to check for bad values like null/undefined
 */
 
-//ANSWER
-//Short Version
+// SOLUTION ( Short Version )
 function countSheeps(arrayOfSheep) {
   return arrayOfSheep.filter((x) => x).length;
 }
 
-//Long Version
+// SOLUTION ( Long Version )
 function countSheeps(arrayOfSheep) {
   let res = 0;
   for (let sheep of arrayOfSheep) {
@@ -35,7 +34,7 @@ function countSheeps(arrayOfSheep) {
   return res;
 }
 
-//TEST
+// TEST CASE
 console.log(
   "TEST 1 =>",
   countSheeps([

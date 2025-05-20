@@ -1,5 +1,5 @@
-//Aldo Ignata Chandra
-//Keep Hydrated!
+// Aldo Ignata Chandra
+// Keep Hydrated!
 
 /* TASK
 Nathan loves cycling.
@@ -15,12 +15,12 @@ time = 6.7---> litres = 3
 time = 11.8--> litres = 5
 */
 
-//ANSWER
+// SOLUTION
 function litres(time) {
   return Math.floor(time * 0.5);
 }
 
-//TEST
+// TEST CASE
 console.log("TEST 1 => ", litres(2));
 console.log("TEST 2 => ", litres(1.4));
 console.log("TEST 3 => ", litres(12.3));

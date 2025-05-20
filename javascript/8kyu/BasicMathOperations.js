@@ -1,5 +1,5 @@
-//Aldo Ignata Chandra
-//Basic Mathematical Operations
+// Aldo Ignata Chandra
+// Basic Mathematical Operations
 
 /* TASK
 Your task is to create a function that does four basic mathematical operations.
@@ -14,13 +14,12 @@ basicOp('*', 5, 5)         // Output: 25
 basicOp('/', 49, 7)        // Output: 7
 */
 
-//ANSWER
-//Short Version
+// SOLUTION ( Short Version )
 function basicOp(operation, value1, value2) {
   return eval(value1 + operation + value2);
 }
 
-//Long Version
+// SOLUTION ( Long Version )
 function basicOp(operation, value1, value2) {
   switch (operation) {
     case "+":
@@ -34,7 +33,7 @@ function basicOp(operation, value1, value2) {
   }
 }
 
-//TEST
+// TEST CASE
 console.log("TEST 1 =>", basicOp("+", 4, 7));
 console.log("TEST 2 =>", basicOp("-", 15, 18));
 console.log("TEST 3 =>", basicOp("*", 5, 5));

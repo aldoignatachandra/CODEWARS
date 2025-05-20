@@ -1,5 +1,5 @@
-//Aldo Ignata Chandra
-//Find the smallest integer in the array
+// Aldo Ignata Chandra
+// Find the smallest integer in the array
 
 /* TASK
 Given an array of integers your solution should find the smallest integer.
@@ -10,13 +10,12 @@ Given [34, -345, -1, 100] your solution will return -345
 You can assume, for the purpose of this kata, that the supplied array will not be empty.
 */
 
-//ANSWER
-//Short Version
+// SOLUTION ( Short Version )
 function findSmallestInt(args) {
   return Math.min(...args);
 }
 
-//Long Version
+// SOLUTION ( Long Version )
 function findSmallestInt(args) {
   var smallestInt = args[0];
   for (var i = 0; i < args.length; i++) {
@@ -27,7 +26,7 @@ function findSmallestInt(args) {
   return smallestInt;
 }
 
-//TEST
+// TEST CASE
 console.log("TEST 1 =>", findSmallestInt([34, 15, 88, 2]));
 console.log("TEST 2 =>", findSmallestInt([1, 2, 3, 4]));
 console.log("TEST 3 =>", findSmallestInt([10, 11, 12, 2]));

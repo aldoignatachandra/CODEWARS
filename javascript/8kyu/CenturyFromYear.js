@@ -1,5 +1,5 @@
-//Aldo Ignata Chandra
-//Century From Year
+// Aldo Ignata Chandra
+// Century From Year
 
 /* TASK
 Introduction
@@ -20,17 +20,14 @@ Hope you enjoy it .. Awaiting for Best Practice Codes
 Enjoy Learning !!!
 */
 
-//ANSWER
-//Short Version
+// SOLUTION ( Short Version )
 function century(year) {
   return Math.ceil(year / 100);
 }
 
-//Long Version
+// SOLUTION ( Long Version )
 function century(year) {
-  if (year <= 100) {
-    return 1;
-  }
+  if (year <= 100) return 1;
 
   let cen = parseInt(year / 100);
   let rem = year % 100;
@@ -38,7 +35,7 @@ function century(year) {
   return rem === 0 ? cen : cen + 1;
 }
 
-//TEST
+// TEST CASE
 console.log("TEST 1 =>", century(1705));
 console.log("TEST 2 =>", century(1900));
 console.log("TEST 3 =>", century(1601));

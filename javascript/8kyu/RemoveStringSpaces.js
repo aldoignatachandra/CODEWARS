@@ -1,22 +1,21 @@
-//Aldo Ignata Chandra
-//Remove String Spaces
+// Aldo Ignata Chandra
+// Remove String Spaces
 
 /* TASK
 Simple, remove the spaces from the string, then return the resultant string.
 */
 
-//ANSWER
-//Short Version 1
+// SOLUTION ( Short Version ) 1
 function noSpace(x) {
   return x.replace(/\s+/g, "");
 }
 
-//Short Version 2
+// SOLUTION ( Short Version ) 2
 function noSpace(x) {
   return x.split(" ").join("");
 }
 
-//Long Version
+// SOLUTION ( Long Version )
 function noSpace(x) {
   var result = "";
   for (var index = 0; index < x.length; index++) {
@@ -27,7 +26,7 @@ function noSpace(x) {
   return result;
 }
 
-//TEST
+// TEST CASE
 console.log("TEST 1 =>", noSpace("8 j 8   mBliB8g  imjB8B8  jl  B"));
 console.log(
   "TEST 2 =>",

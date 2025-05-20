@@ -1,5 +1,5 @@
-//Aldo Ignata Chandra
-//Multiples of 3 or 5
+// Aldo Ignata Chandra
+// Multiples of 3 or 5
 
 /* TASK
 If we list all the natural numbers below 10 that are multiples of 3 or 5, 
@@ -8,7 +8,7 @@ Finish the solution so that it returns the sum of all the multiples of 3 or 5 be
 Note: If the number is a multiple of both 3 and 5, only count it once.
 */
 
-//ANSWER
+// SOLUTION
 function solution(number) {
   var sum = 0;
   for (var i = 0; i < number; i++) {
@@ -19,7 +19,7 @@ function solution(number) {
   return sum;
 }
 
-//TEST
+// TEST CASE
 console.log("TEST 1 =>", solution(10));
 console.log("TEST 2 =>", solution(3));
 console.log("TEST 3 =>", solution(5));

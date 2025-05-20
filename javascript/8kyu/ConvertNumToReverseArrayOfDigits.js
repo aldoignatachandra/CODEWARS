@@ -1,5 +1,5 @@
-//Aldo Ignata Chandra
-//Convert number to reversed array of digits
+// Aldo Ignata Chandra
+// Convert number to reversed array of digits
 
 /* TASK
 Convert number to reversed array of digits
@@ -9,13 +9,12 @@ Example:
 348597 => [7,9,5,8,4,3]
 */
 
-//ANSWER
-//Short Version
+// SOLUTION ( Short Version )
 function digitize(n) {
   return String(n).split("").map(Number).reverse();
 }
 
-//Long Version
+// SOLUTION ( Long Version )
 function digitize(n) {
   let rev = n.toString().split("").reverse("").join("");
   return Array.prototype.map.call(rev, (s) => {
@@ -23,7 +22,7 @@ function digitize(n) {
   });
 }
 
-//TEST
+// TEST CASE
 console.log("TEST 1 => ", digitize(35231));
 console.log("TEST 2 => ", digitize(12345));
 console.log("TEST 3 => ", digitize(74263));
