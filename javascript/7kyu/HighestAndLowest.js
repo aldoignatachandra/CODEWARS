@@ -1,5 +1,5 @@
-//Aldo Ignata Chandra
-//Highest And Lowest
+// Aldo Ignata Chandra
+// Highest And Lowest
 
 /* TASK
 In this little assignment you are given a string of space separated
@@ -16,28 +16,23 @@ There will always be at least one number in the input string.
 Output string must be two numbers separated by a single space, and highest number is first.
 */
 
-//ANSWER
-//Short Answer
-// function highAndLow(numbers) {
-//   const num = numbers.split(" ").map(Number);
-//   return `${Math.max(...num)} ${Math.min(...num)}`;
-// }
+// SOLUTION ( Short Version )
+function highAndLow(numbers) {
+  const num = numbers.split(" ").map(Number);
+  return `${Math.max(...num)} ${Math.min(...num)}`;
+}
 
-//Long Answer
+// SOLUTION ( lONG Version )
 function highAndLow(numbers) {
   const num = numbers.split(" ").map(Number);
   let maxNum = 0;
   let minNum = 0;
   for (let n of num) {
-    if (n > maxNum) {
-      maxNum = n;
-    }
-    if (n < minNum) {
-      minNum = n;
-    }
+    if (n > maxNum) maxNum = n;
+    if (n < minNum) minNum = n;
   }
   return maxNum + " " + minNum;
 }
 
-//TEST
+// TEST CASE
 console.log("TEST 1 =>", highAndLow("4 5 29 54 4 0 -214 542 -64 1 -3 6 -6"));

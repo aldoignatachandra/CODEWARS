@@ -1,5 +1,5 @@
-//Aldo Ignata Chandra
-//List Filtering
+// Aldo Ignata Chandra
+// List Filtering
 
 /* TASK
 In this kata you will create a function that takes 
@@ -12,13 +12,12 @@ filter_list([1,'a','b',0,15]) == [1,0,15]
 filter_list([1,2,'aasf','1','123',123]) == [1,2,123]
 */
 
-//ANSWER
-//Short Answer
+// SOLUTION ( Short Version )
 function filter_list(l) {
   return l.filter((n) => Number(n) === n);
 }
 
-//Long Answer
+// SOLUTION ( Long Version )
 function filter_list(l) {
   let list = [];
   for (let i = 0; i < l.length; i++) {
@@ -29,7 +28,7 @@ function filter_list(l) {
   return list;
 }
 
-//TEST
+// TEST CASE
 console.log("TEST 1 =>", filter_list([1, 2, "a", "b"]));
 console.log("TEST 2 =>", filter_list([1, "a", "b", 0, 15]));
 console.log("TEST 3 =>", filter_list([1, 2, "aasf", "1", "123", 123]));

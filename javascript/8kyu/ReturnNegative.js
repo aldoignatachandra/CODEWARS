@@ -1,5 +1,5 @@
-//Aldo Ignata Chandra
-//Return Negative
+// Aldo Ignata Chandra
+// Return Negative
 
 /* TASK
 In this simple assignment you are given a number and have to make it negative. 
@@ -12,18 +12,17 @@ makeNegative(0); // return 0
 makeNegative(0.12); // return -0.12
 */
 
-//ANSWER
-//Short Version
+// SOLUTION ( Short Version )
 function makeNegative(num) {
   return -Math.abs(num);
 }
 
-//Long Version
+// SOLUTION ( Long Version )
 function makeNegative(num) {
   return num <= 0 ? num : -num;
 }
 
-//TEST
+// TEST CASE
 console.log("TEST 1 =>", makeNegative(42));
 console.log("TEST 2 =>", makeNegative(-1));
 console.log("TEST 3 =>", makeNegative(7));

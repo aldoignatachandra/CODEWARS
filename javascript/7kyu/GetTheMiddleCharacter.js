@@ -1,5 +1,5 @@
-//Aldo Ignata Chandra
-//Get The Middle Character
+// Aldo Ignata Chandra
+// Get The Middle Character
 
 /* TASK
 You are going to be given a word. 
@@ -24,13 +24,12 @@ that you do not need to worry about your solution timing out.
 The middle character(s) of the word represented as a string.
 */
 
-//ANSWER
-//Short Answer
+// SOLUTION ( Short Version )
 function getMiddle(s) {
   return s.substr(Math.ceil(s.length / 2 - 1), s.length % 2 === 0 ? 2 : 1);
 }
 
-//Long Answer
+// SOLUTION ( Long Version )
 function getMiddle(s) {
   let position, length;
   if (s.length % 2 == 0) {
@@ -43,7 +42,7 @@ function getMiddle(s) {
   return s.substring(position, position + length);
 }
 
-//TEST
+// TEST CASE
 console.log("TEST 1 =>", getMiddle("test"));
 console.log("TEST 2 =>", getMiddle("testing"));
 console.log("TEST 3 =>", getMiddle("middle"));

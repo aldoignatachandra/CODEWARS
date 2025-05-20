@@ -1,5 +1,5 @@
-//Aldo Ignata Chandra
-//Mumbling
+// Aldo Ignata Chandra
+// Mumbling
 
 /* TASK
 This time no story, no theory. The examples below 
@@ -13,15 +13,14 @@ accum("cwAt") -> "C-Ww-Aaa-Tttt"
 The parameter of accum is a string which includes only letters from a..z and A..Z.
 */
 
-//ANSWER
-//Short Answer
+// SOLUTION ( Short Version )
 function accum(s) {
   return [...s.toUpperCase()].reduce(
     (prev, cur, i) => prev + "-" + cur + cur.toLowerCase().repeat(i)
   );
 }
 
-//Long Answer
+// SOLUTION ( Long Version )
 function accum(s) {
   const str = [];
   const lowerStr = s.toLowerCase();
@@ -35,7 +34,7 @@ function accum(s) {
   return str.join("-");
 }
 
-//TEST
+// TEST CASE
 console.log("TEST 1 =>", accum("ZpglnRxqenU"));
 console.log("TEST 2 =>", accum("NyffsGeyylB"));
 console.log("TEST 3 =>", accum("MjtkuBovqrU"));

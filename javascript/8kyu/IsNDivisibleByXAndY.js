@@ -1,5 +1,5 @@
-//Aldo Ignata Chandra
-//Is n divisible by x and y?
+// Aldo Ignata Chandra
+// Is n divisible by x and y?
 
 /* TASK
 Create a function that checks if a number n is divisible by two numbers x AND y. 
@@ -12,18 +12,17 @@ Examples:
 4) n =  12, x = 7, y = 5 => false because  12 is neither divisible by 7 nor 5
 */
 
-//ANSWER
-//Short Version
+// SOLUTION ( Short Version )
 function isDivisible(n, x, y) {
   return !(n % x || n % y);
 }
 
-//Long Version
+// SOLUTION ( Long Version )
 function isDivisible(n, x, y) {
   return n % x === 0 && n % y === 0;
 }
 
-//TEST
+// TEST CASE
 console.log("TEST 1 =>", isDivisible(3, 3, 4));
 console.log("TEST 2 =>", isDivisible(12, 3, 4));
 console.log("TEST 3 =>", isDivisible(8, 3, 4));
