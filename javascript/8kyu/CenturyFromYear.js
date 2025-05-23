@@ -38,8 +38,24 @@ function century(year) {
 }
 
 // TEST CASE
-console.log("TEST 1 =>", century(1705));
-console.log("TEST 2 =>", century(1900));
-console.log("TEST 3 =>", century(1601));
-console.log("TEST 4 =>", century(2000));
-console.log("TEST 5 =>", century(89));
+const test1 = century(1705);
+console.log("result test1 (century) =>", test1);
+assert.strictEqual(test1, 18);
+
+const test2 = century(1900);
+console.log("result test2 (century) =>", test2);
+assert.strictEqual(test2, 19);
+
+const test3 = century(1601);
+console.log("result test3 (century) =>", test3);
+assert.strictEqual(test3, 17);
+
+const test4 = century(2000);
+console.log("result test4 (century) =>", test4);
+assert.strictEqual(test4, 20);
+
+const test5 = century(89);
+console.log("result test5 (century) =>", test5);
+assert.strictEqual(test5, 1);
+
+console.log("All tests passed!");

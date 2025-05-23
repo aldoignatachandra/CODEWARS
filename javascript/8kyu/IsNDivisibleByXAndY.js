@@ -25,7 +25,20 @@ function isDivisible(n, x, y) {
 }
 
 // TEST CASE
-console.log("TEST 1 =>", isDivisible(3, 3, 4));
-console.log("TEST 2 =>", isDivisible(12, 3, 4));
-console.log("TEST 3 =>", isDivisible(8, 3, 4));
-console.log("TEST 4 =>", isDivisible(48, 3, 4));
+const test1 = isDivisible(3, 3, 4);
+console.log("result test1 =>", test1);
+assert.strictEqual(test1, false);
+
+const test2 = isDivisible(12, 3, 4);
+console.log("result test2 =>", test2);
+assert.strictEqual(test2, true);
+
+const test3 = isDivisible(8, 3, 4);
+console.log("result test3 =>", test3);
+assert.strictEqual(test3, false);
+
+const test4 = isDivisible(48, 3, 4);
+console.log("result test4 =>", test4);
+assert.strictEqual(test4, true);
+
+console.log("All tests passed!");

@@ -37,32 +37,33 @@ function countSheeps(arrayOfSheep) {
 }
 
 // TEST CASE
-console.log(
-  "TEST 1 =>",
-  countSheeps([
-    true,
-    true,
-    true,
-    false,
-    true,
-    true,
-    true,
-    true,
-    true,
-    false,
-    true,
-    false,
-    true,
-    false,
-    false,
-    true,
-    true,
-    true,
-    true,
-    true,
-    false,
-    false,
-    true,
-    true,
-  ])
-);
+const test1 = countSheeps([
+  true,
+  true,
+  true,
+  false,
+  true,
+  true,
+  true,
+  true,
+  true,
+  false,
+  true,
+  false,
+  true,
+  false,
+  false,
+  true,
+  true,
+  true,
+  true,
+  true,
+  false,
+  false,
+  true,
+  true,
+]);
+console.log("result test1 =>", test1);
+assert.strictEqual(test1, 17);
+
+console.log("All tests passed!");

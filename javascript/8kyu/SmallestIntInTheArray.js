@@ -29,6 +29,16 @@ function findSmallestInt(args) {
 }
 
 // TEST CASE
-console.log("TEST 1 =>", findSmallestInt([34, 15, 88, 2]));
-console.log("TEST 2 =>", findSmallestInt([1, 2, 3, 4]));
-console.log("TEST 3 =>", findSmallestInt([10, 11, 12, 2]));
+const test1 = findSmallestInt([34, 15, 88, 2]);
+console.log("result test1 =>", test1);
+assert.strictEqual(test1, 2);
+
+const test2 = findSmallestInt([1, 2, 3, 4]);
+console.log("result test2 =>", test2);
+assert.strictEqual(test2, 1);
+
+const test3 = findSmallestInt([10, 11, 12, 2]);
+console.log("result test3 =>", test3);
+assert.strictEqual(test3, 2);
+
+console.log("All tests passed!");

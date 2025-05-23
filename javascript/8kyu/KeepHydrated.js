@@ -23,10 +23,32 @@ function litres(time) {
 }
 
 // TEST CASE
-console.log("TEST 1 => ", litres(2));
-console.log("TEST 2 => ", litres(1.4));
-console.log("TEST 3 => ", litres(12.3));
-console.log("TEST 4 => ", litres(0.82));
-console.log("TEST 5 => ", litres(11.8));
-console.log("TEST 6 => ", litres(1787));
-console.log("TEST 7 => ", litres(0));
+const test1 = litres(2);
+console.log("result test1 =>", test1);
+assert.strictEqual(test1, 1);
+
+const test2 = litres(1.4);
+console.log("result test2 =>", test2);
+assert.strictEqual(test2, 0);
+
+const test3 = litres(12.3);
+console.log("result test3 =>", test3);
+assert.strictEqual(test3, 6);
+
+const test4 = litres(0.82);
+console.log("result test4 =>", test4);
+assert.strictEqual(test4, 0);
+
+const test5 = litres(11.8);
+console.log("result test5 =>", test5);
+assert.strictEqual(test5, 5);
+
+const test6 = litres(1787);
+console.log("result test6 =>", test6);
+assert.strictEqual(test6, 893);
+
+const test7 = litres(0);
+console.log("result test7 =>", test7);
+assert.strictEqual(test7, 0);
+
+console.log("All tests passed!");

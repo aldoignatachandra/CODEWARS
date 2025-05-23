@@ -10,7 +10,6 @@ Example [1,-4,7,12] => 1 + 7 + 12 = 20
 Note: if there is nothing to sum, the sum is default to 0.
 */
 
-// SOLUTION
 // SOLUTION ( Short Version )
 function positiveSum(arr) {
   return arr.reduce((a, b) => a + (b > 0 ? b : 0), 0);
@@ -28,6 +27,16 @@ function positiveSum(arr) {
 }
 
 // TEST CASE
-console.log("TEST 1 =>", positiveSum([1, -4, 7, 12]));
-console.log("TEST 2 =>", positiveSum([2, 0, 3, 10]));
-console.log("TEST 3 =>", positiveSum([0, -4, -2, 11]));
+const test1 = positiveSum([1, -4, 7, 12]);
+console.log("result test1 =>", test1);
+assert.strictEqual(test1, 20);
+
+const test2 = positiveSum([2, 0, 3, 10]);
+console.log("result test2 =>", test2);
+assert.strictEqual(test2, 15);
+
+const test3 = positiveSum([0, -4, -2, 11]);
+console.log("result test3 =>", test3);
+assert.strictEqual(test3, 11);
+
+console.log("All tests passed!");

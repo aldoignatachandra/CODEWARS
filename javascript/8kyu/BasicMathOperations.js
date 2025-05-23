@@ -36,7 +36,18 @@ function basicOp(operation, value1, value2) {
 }
 
 // TEST CASE
-console.log("TEST 1 =>", basicOp("+", 4, 7));
-console.log("TEST 2 =>", basicOp("-", 15, 18));
-console.log("TEST 3 =>", basicOp("*", 5, 5));
-console.log("TEST 4 =>", basicOp("/", 49, 7));
+const result1 = basicOp("+", 4, 7);
+console.log("result test1 =>", result1);
+assert.strictEqual(result1, 11);
+
+const result2 = basicOp("-", 15, 18);
+console.log("result test2 =>", result2);
+assert.strictEqual(result2, -3);
+
+const result3 = basicOp("*", 5, 5);
+console.log("result test3 =>", result3);
+assert.strictEqual(result3, 25);
+
+const result4 = basicOp("/", 49, 7);
+console.log("result test4 =>", result4);
+assert.strictEqual(result4, 7);

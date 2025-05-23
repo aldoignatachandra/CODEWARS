@@ -25,5 +25,12 @@ function squareSum(numbers) {
 }
 
 // TEST CASE
-console.log("TEST 1 =>", squareSum([1, 2]));
-console.log("TEST 2 =>", squareSum([0, 3, 4, 5]));
+const test1 = squareSum([1, 2]);
+console.log("result test1 =>", test1);
+assert.strictEqual(test1, 5);
+
+const test2 = squareSum([0, 3, 4, 5]);
+console.log("result test2 =>", test2);
+assert.strictEqual(test2, 50);
+
+console.log("All tests passed!");

@@ -26,6 +26,16 @@ function repeatStr(n, s) {
 }
 
 // TEST CASE
-console.log("TEST 1 =>", repeatStr(3, "*"));
-console.log("TEST 2 =>", repeatStr(5, "#"));
-console.log("TEST 3 =>", repeatStr(2, "ha "));
+const test1 = repeatStr(3, "*");
+console.log("result test1 =>", test1);
+assert.strictEqual(test1, "***");
+
+const test2 = repeatStr(5, "#");
+console.log("result test2 =>", test2);
+assert.strictEqual(test2, "#####");
+
+const test3 = repeatStr(2, "ha ");
+console.log("result test3 =>", test3);
+assert.strictEqual(test3, "ha ha ");
+
+console.log("All tests passed!");

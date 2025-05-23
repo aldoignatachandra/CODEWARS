@@ -31,6 +31,16 @@ var summation = function (num) {
 };
 
 // TEST CASE
-console.log("TEST 1 =>", summation(1));
-console.log("TEST 2 =>", summation(8));
-console.log("TEST 3 =>", summation(5));
+const test1 = summation(1);
+console.log("result test1 =>", test1);
+assert.strictEqual(test1, 1);
+
+const test2 = summation(8);
+console.log("result test2 =>", test2);
+assert.strictEqual(test2, 36);
+
+const test3 = summation(5);
+console.log("result test3 =>", test3);
+assert.strictEqual(test3, 15);
+
+console.log("All tests passed!");

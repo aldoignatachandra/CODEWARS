@@ -14,6 +14,16 @@ function even_or_odd(number) {
 }
 
 // TEST CASE
-console.log("TEST 1 =>", even_or_odd(10));
-console.log("TEST 2 =>", even_or_odd(11));
-console.log("TEST 3 =>", even_or_odd(12));
+const test1 = even_or_odd(10);
+console.log("result test1 =>", test1);
+assert.strictEqual(test1, "Even");
+
+const test2 = even_or_odd(11);
+console.log("result test2 =>", test2);
+assert.strictEqual(test2, "Odd");
+
+const test3 = even_or_odd(12);
+console.log("result test3 =>", test3);
+assert.strictEqual(test3, "Even");
+
+console.log("All tests passed!");

@@ -25,6 +25,16 @@ function digitize(n) {
 }
 
 // TEST CASE
-console.log("TEST 1 => ", digitize(35231));
-console.log("TEST 2 => ", digitize(12345));
-console.log("TEST 3 => ", digitize(74263));
+const digitTest1 = digitize(35231);
+console.log("result test1 (digitize) =>", digitTest1);
+assert.deepStrictEqual(digitTest1, [1, 3, 2, 5, 3]);
+
+const digitTest2 = digitize(12345);
+console.log("result test2 (digitize) =>", digitTest2);
+assert.deepStrictEqual(digitTest2, [5, 4, 3, 2, 1]);
+
+const digitTest3 = digitize(74263);
+console.log("result test3 (digitize) =>", digitTest3);
+assert.deepStrictEqual(digitTest3, [3, 6, 2, 4, 7]);
+
+console.log("All tests passed!");

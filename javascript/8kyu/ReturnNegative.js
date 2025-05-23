@@ -25,6 +25,16 @@ function makeNegative(num) {
 }
 
 // TEST CASE
-console.log("TEST 1 =>", makeNegative(42));
-console.log("TEST 2 =>", makeNegative(-1));
-console.log("TEST 3 =>", makeNegative(7));
+const test1 = makeNegative(42);
+console.log("result test1 =>", test1);
+assert.strictEqual(test1, -42);
+
+const test2 = makeNegative(-1);
+console.log("result test2 =>", test2);
+assert.strictEqual(test2, -1);
+
+const test3 = makeNegative(7);
+console.log("result test3 =>", test3);
+assert.strictEqual(test3, -7);
+
+console.log("All tests passed!");

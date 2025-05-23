@@ -18,6 +18,14 @@ function numberToString(num) {
 }
 
 // TEST CASE
-console.log("TEST 1 =>", numberToString(67));
-console.log("TEST 2 =>", numberToString(1));
-console.log("TEST 3 =>", numberToString(-1));
+const numStrTest1 = numberToString(67);
+console.log("result test1 (numberToString) =>", numStrTest1);
+assert.strictEqual(numStrTest1, "67");
+
+const numStrTest2 = numberToString(1);
+console.log("result test2 (numberToString) =>", numStrTest2);
+assert.strictEqual(numStrTest2, "1");
+
+const numStrTest3 = numberToString(-1);
+console.log("result test3 (numberToString) =>", numStrTest3);
+assert.strictEqual(numStrTest3, "-1");

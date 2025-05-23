@@ -20,5 +20,10 @@ function boolToWord(bool) {
 }
 
 // TEST CASE
-console.log("TEST 1 =>", boolToWord(true));
-console.log("TEST 2 =>", boolToWord(false));
+const boolTest1 = boolToWord(true);
+console.log("result test1 (boolToWord) =>", boolTest1);
+assert.strictEqual(boolTest1, "Yes");
+
+const boolTest2 = boolToWord(false);
+console.log("result test2 (boolToWord) =>", boolTest2);
+assert.strictEqual(boolTest2, "No");

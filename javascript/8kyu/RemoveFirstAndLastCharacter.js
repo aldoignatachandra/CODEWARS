@@ -22,6 +22,16 @@ function removeChar(str) {
 }
 
 // TEST CASE
-console.log("TEST 1 =>", removeChar("eloquent"));
-console.log("TEST 2 =>", removeChar("country"));
-console.log("TEST 3 =>", removeChar("person"));
+const test1 = removeChar("eloquent");
+console.log("result test1 =>", test1);
+assert.strictEqual(test1, "loquen");
+
+const test2 = removeChar("country");
+console.log("result test2 =>", test2);
+assert.strictEqual(test2, "ountr");
+
+const test3 = removeChar("person");
+console.log("result test3 =>", test3);
+assert.strictEqual(test3, "erso");
+
+console.log("All tests passed!");
