@@ -1,3 +1,5 @@
+const assert = require("assert");
+
 // Aldo Ignata Chandra
 // Vowel Count
 
@@ -27,6 +29,16 @@ function getCount(str) {
 }
 
 // TEST CASE
-console.log("TEST 1 =>", getCount("ARKADEMY"));
-console.log("TEST 2 =>", getCount("ALDO"));
-console.log("TEST 3 =>", getCount("VIRUS"));
+const test1 = getCount("ARKADEMY"); // A, A, E => 3 vowels
+console.log("result test1 =>", test1);
+assert.strictEqual(test1, 3);
+
+const test2 = getCount("ALDO"); // A, O => 2 vowels
+console.log("result test2 =>", test2);
+assert.strictEqual(test2, 2);
+
+const test3 = getCount("VIRUS"); // I, U => 2 vowels
+console.log("result test3 =>", test3);
+assert.strictEqual(test3, 2);
+
+console.log("All tests passed!");

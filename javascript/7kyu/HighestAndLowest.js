@@ -1,3 +1,5 @@
+const assert = require("assert");
+
 // Aldo Ignata Chandra
 // Highest And Lowest
 
@@ -35,4 +37,8 @@ function highAndLow(numbers) {
 }
 
 // TEST CASE
-console.log("TEST 1 =>", highAndLow("4 5 29 54 4 0 -214 542 -64 1 -3 6 -6"));
+const test1 = highAndLow("4 5 29 54 4 0 -214 542 -64 1 -3 6 -6");
+console.log("result test1 =>", test1);
+assert.strictEqual(test1, "542 -214");
+
+console.log("All tests passed!");

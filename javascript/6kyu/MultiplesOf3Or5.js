@@ -1,3 +1,5 @@
+const assert = require("assert");
+
 // Aldo Ignata Chandra
 // Multiples of 3 or 5
 
@@ -20,7 +22,20 @@ function solution(number) {
 }
 
 // TEST CASE
-console.log("TEST 1 =>", solution(10));
-console.log("TEST 2 =>", solution(3));
-console.log("TEST 3 =>", solution(5));
-console.log("TEST 4 =>", solution(7));
+const test1 = solution(10);
+console.log("result test1 => ", test1);
+assert.deepStrictEqual(test1, 23);
+
+const test2 = solution(3);
+console.log("result test2 => ", test2);
+assert.deepStrictEqual(test2, 0);
+
+const test3 = solution(5);
+console.log("result test3 => ", test3);
+assert.deepStrictEqual(test3, 3);
+
+const test4 = solution(7);
+console.log("result test4 => ", test4);
+assert.deepStrictEqual(test4, 14);
+
+console.log("All tests passed!");

@@ -1,3 +1,5 @@
+const assert = require("assert");
+
 // Aldo Ignata Chandra
 // Grasshopper - Summation
 

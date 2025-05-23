@@ -1,3 +1,5 @@
+const assert = require("assert");
+
 // Aldo Ignata Chandra
 // Mumbling
 
@@ -35,8 +37,39 @@ function accum(s) {
 }
 
 // TEST CASE
-console.log("TEST 1 =>", accum("ZpglnRxqenU"));
-console.log("TEST 2 =>", accum("NyffsGeyylB"));
-console.log("TEST 3 =>", accum("MjtkuBovqrU"));
-console.log("TEST 4 =>", accum("EvidjUnokmM"));
-console.log("TEST 5 =>", accum("HbideVbxncC"));
+const test1 = accum("ZpglnRxqenU");
+console.log("result test1 =>", test1);
+assert.strictEqual(
+  test1,
+  "Z-Pp-Ggg-Llll-Nnnnn-Rrrrrr-Xxxxxxx-Qqqqqqqq-Eeeeeeeee-Nnnnnnnnnn-Uuuuuuuuuuu"
+);
+
+const test2 = accum("NyffsGeyylB");
+console.log("result test2 =>", test2);
+assert.strictEqual(
+  test2,
+  "N-Yy-Fff-Ffff-Sssss-Gggggg-Eeeeeee-Yyyyyyyy-Yyyyyyyyy-Lllllllll-Bbbbbbbbbb"
+);
+
+const test3 = accum("MjtkuBovqrU");
+console.log("result test3 =>", test3);
+assert.strictEqual(
+  test3,
+  "M-Jj-Ttt-Kkkk-Uuuuu-Bbbbbb-Ooooooo-Vvvvvvvv-Qqqqqqqqq-Rrrrrrrrrr-Uuuuuuuuuuu"
+);
+
+const test4 = accum("EvidjUnokmM");
+console.log("result test4 =>", test4);
+assert.strictEqual(
+  test4,
+  "E-Vv-Iii-Dddd-Jjjjj-Uuuuuu-Nnnnnnn-Oooooooo-Kkkkkkkkk-Mmmmmmmmmm-Mmmmmmmmmmm"
+);
+
+const test5 = accum("HbideVbxncC");
+console.log("result test5 =>", test5);
+assert.strictEqual(
+  test5,
+  "H-Bb-Iii-Dddd-Eeeee-Vvvvvv-Bbbbbbb-Xxxxxxxx-Nnnnnnnnn-Cccccccccc-Ccccccccccc"
+);
+
+console.log("All tests passed!");

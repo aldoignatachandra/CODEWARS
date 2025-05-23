@@ -1,3 +1,5 @@
+const assert = require("assert");
+
 // Aldo Ignata Chandra
 // Get The Middle Character
 
@@ -43,7 +45,20 @@ function getMiddle(s) {
 }
 
 // TEST CASE
-console.log("TEST 1 =>", getMiddle("test"));
-console.log("TEST 2 =>", getMiddle("testing"));
-console.log("TEST 3 =>", getMiddle("middle"));
-console.log("TEST 4 =>", getMiddle("A"));
+const test1 = getMiddle("test");
+console.log("result test1 =>", test1);
+assert.strictEqual(test1, "es");
+
+const test2 = getMiddle("testing");
+console.log("result test2 =>", test2);
+assert.strictEqual(test2, "t");
+
+const test3 = getMiddle("middle");
+console.log("result test3 =>", test3);
+assert.strictEqual(test3, "dd");
+
+const test4 = getMiddle("A");
+console.log("result test4 =>", test4);
+assert.strictEqual(test4, "A");
+
+console.log("All tests passed!");
