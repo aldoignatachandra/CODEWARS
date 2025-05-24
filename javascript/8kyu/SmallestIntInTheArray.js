@@ -19,8 +19,8 @@ function findSmallestInt(args) {
 
 // SOLUTION ( Long Version )
 function findSmallestInt(args) {
-  var smallestInt = args[0];
-  for (var i = 0; i < args.length; i++) {
+  let smallestInt = args[0];
+  for (let i = 0; i < args.length; i++) {
     if (args[i] < smallestInt) {
       smallestInt = args[i];
     }

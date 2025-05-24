@@ -17,14 +17,14 @@ summation(8) -> 36
 */
 
 // SOLUTION ( Short Version )
-var summation = function (num) {
+let summation = function (num) {
   return (num * (num + 1)) / 2;
 };
 
 // SOLUTION ( Long Version )
-var summation = function (num) {
-  var sum = 0;
-  for (var i = 1; i < num + 1; i++) {
+let summation = function (num) {
+  let sum = 0;
+  for (let i = 1; i < num + 1; i++) {
     sum += i;
   }
   return sum;

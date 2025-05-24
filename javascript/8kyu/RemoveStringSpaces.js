@@ -19,8 +19,8 @@ function noSpace(x) {
 
 // SOLUTION ( Long Version )
 function noSpace(x) {
-  var result = "";
-  for (var index = 0; index < x.length; index++) {
+  let result = "";
+  for (let index = 0; index < x.length; index++) {
     if (x[index] !== " ") {
       result += x[index];
     }
