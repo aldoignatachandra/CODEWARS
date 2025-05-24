@@ -15,6 +15,7 @@ For example, the string "This website is for losers LOL!" would become "Ths wbst
 Note: for this kata y isn't considered a vowel.
 */
 
+// SOLUTION
 function disemvowel(str) {
   let arr = str.split("");
   let vowel_list = "aeiouAEIOU";
@@ -29,6 +30,7 @@ function disemvowel(str) {
   return arr.join("");
 }
 
+// TEST CASE
 const test1 = disemvowel("This website is for losers LOL!");
 console.log("result test1 =>", test1);
 assert.strictEqual(test1, "Ths wbst s fr lsrs LL!");

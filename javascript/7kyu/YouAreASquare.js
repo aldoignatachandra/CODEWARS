@@ -20,11 +20,13 @@ Examples
 26  =>  false
 */
 
+// SOLUTION
 const isSquare = (n) => {
   if (n < 0) return false;
   return Math.sqrt(n) % 1 === 0;
 };
 
+// TEST CASE
 const test1 = isSquare(-1);
 console.log("result test1 =>", test1);
 assert.strictEqual(

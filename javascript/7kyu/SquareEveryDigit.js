@@ -15,6 +15,7 @@ Note: The function accepts an integer and returns an integer.
 Happy Coding!
 */
 
+// SOLUTION
 function squareDigits(num) {
   let arr = String(num).split("");
 
@@ -25,6 +26,7 @@ function squareDigits(num) {
   return Number(arr.join(""));
 }
 
+// TEST CASE
 const test1 = squareDigits(3212);
 console.log("result test1 =>", test1);
 assert.strictEqual(test1, 9414);

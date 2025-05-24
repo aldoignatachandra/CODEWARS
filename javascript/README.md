@@ -1,7 +1,7 @@
 ### 8 Kyu
 
-| No  | Challenge                                                                          |  Solution  |
-| :-: | :--------------------------------------------------------------------------------- | :--------: |
+| No  | Challenge                                                                                                                                                   |  Solution  |
+| :-: | :---------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------: |
 |  1  | [Basic Mathematical Operations](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/8kyu/BasicMathOperations.js)                           | JavaScript |
 |  2  | [Century From Year](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/8kyu/CenturyFromYear.js)                                           | JavaScript |
 |  3  | [Convert a Number to a String!](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/8kyu/ConvertNumberToString.js)                         | JavaScript |
@@ -19,32 +19,33 @@
 | 15  | [Remove String Spaces](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/8kyu/RemoveStringSpaces.js)                                     | JavaScript |
 | 16  | [Return Negative](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/8kyu/ReturnNegative.js)                                              | JavaScript |
 | 17  | [Reversed Strings](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/8kyu/ReversedStrings.js)                                            | JavaScript |
-| 18  | [Square(n) Sum](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/8kyu/Square(n)Sum.js)                                                  | JavaScript |
+| 18  | [Square(n) Sum](<https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/8kyu/Square(n)Sum.js>)                                                | JavaScript |
 | 19  | [String Repeat](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/8kyu/StringRepeat.js)                                                  | JavaScript |
 | 20  | [Sum Of Positive](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/8kyu/PositiveSum.js)                                                 | JavaScript |
-
 
 #
 
 ### 7 Kyu
 
-| No  | Challenge                                                                          |  Solution  |
-| :-: | ---------------------------------------------------------------------------------- | :--------: |
-|  1  | [Descending Order](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/DescendingOrder.js)                | JavaScript |
-|  2  | [Disemvowel Trolls](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/DisemvowelTrolls.js)              | JavaScript |
-|  3  | [Get The Middle Character](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/GetTheMiddleCharacter.js)  | JavaScript |
-|  4  | [Highest And Lowest](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/HighestAndLowest.js)             | JavaScript |
-|  5  | [List Filtering](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/ListFiltering.js)                    | JavaScript |
-|  6  | [Mumbling](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/Mumbling.js)                               | JavaScript |
-|  7  | [Square Every Digit](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/SquareEveryDigit.js)             | JavaScript |
-|  8  | [Strings Strings Strings](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/StringsStringsStrings.js)   | JavaScript |
-|  9  | [Vowel Count](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/VowelCount.js)                          | JavaScript |
-| 10  | [You Are A Square](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/YouAreASquare.js)                  | JavaScript |
+| No  | Challenge                                                                                                                      |  Solution  |
+| :-: | ------------------------------------------------------------------------------------------------------------------------------ | :--------: |
+|  1  | [Descending Order](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/DescendingOrder.js)               | JavaScript |
+|  2  | [Disemvowel Trolls](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/DisemvowelTrolls.js)             | JavaScript |
+|  3  | [Get The Middle Character](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/GetTheMiddleCharacter.js) | JavaScript |
+|  4  | [Highest And Lowest](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/HighestAndLowest.js)            | JavaScript |
+|  5  | [List Filtering](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/ListFiltering.js)                   | JavaScript |
+|  6  | [Mumbling](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/Mumbling.js)                              | JavaScript |
+|  7  | [Square Every Digit](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/SquareEveryDigit.js)            | JavaScript |
+|  8  | [Strings Strings Strings](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/StringsStringsStrings.js)  | JavaScript |
+|  9  | [Vowel Count](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/VowelCount.js)                         | JavaScript |
+| 10  | [You Are A Square](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/YouAreASquare.js)                 | JavaScript |
 
 #
 
 ### 6 Kyu
 
-| No  | Challenge                                                                          |  Solution  |
-| :-: | :--------------------------------------------------------------------------------- | :--------: |
-|  1  | [Multiples Of 3 Or 5](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/6kyu/MultiplesOf3Or5.js) | JavaScript |
+| No  | Challenge                                                                                                                  |  Solution  |
+| :-: | :------------------------------------------------------------------------------------------------------------------------- | :--------: |
+|  1  | [Multiples Of 3 Or 5](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/6kyu/MultiplesOf3Or5.js)        | JavaScript |
+|  2  | [Stop Spinning My Words](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/6kyu/StopSpinningMyWords.js) | JavaScript |
+|  3  | [Who Likes It](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/6kyu/WhoLikesIt.js)                    | JavaScript |

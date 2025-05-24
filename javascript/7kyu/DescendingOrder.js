@@ -15,11 +15,13 @@ Input: 145263 Output: 654321
 Input: 123456789 Output: 987654321
 */
 
+// SOLUTION
 function descendingOrder(n) {
   const nums = n.toString().split("").sort((a, b) => b - a).join("");
   return Number(nums);
 }
 
+// TEST CASE
 const test1 = descendingOrder(0);
 console.log("result test1 =>", test1);
 assert.strictEqual(test1, 0);
