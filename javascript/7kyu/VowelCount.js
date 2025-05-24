@@ -16,10 +16,10 @@ function getCount(str) {
 
 // SOLUTION ( Long Version )
 function getCount(str) {
-  var vowelsCount = 0;
-  var vowel_list = "aeiouAEIOU";
+  let vowelsCount = 0;
+  let vowel_list = "aeiouAEIOU";
 
-  for (var x = 0; x < str.length; x++) {
+  for (let x = 0; x < str.length; x++) {
     if (vowel_list.indexOf(str[x]) !== -1) {
       vowelsCount += 1;
     }
