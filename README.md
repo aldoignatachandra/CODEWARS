@@ -1,5 +1,10 @@
 <h1 align="center">CODEWARS</h1>
 
+<p align="center">
+  <img alt="Languages" src="https://img.shields.io/badge/Languages-JavaScript-brightgreen.svg?longCache=true&style=for-the-badge">
+  <img alt="NodeJS Version" src="https://img.shields.io/badge/Node.js-18%2B-339933?style=for-the-badge">
+</p>
+
 ## What is CodeWars ?
 
 <p align="justify">
