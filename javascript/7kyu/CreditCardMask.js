@@ -23,14 +23,14 @@ Examples (input --> output):
 */
 
 // SOLUTION
-const maskify = (cc) => {
+function maskify(cc) {
   if (cc.length <= 4) return cc;
 
   const str = cc.slice(0, -4);
   const lastFour = cc.slice(-4);
 
   return str.replace(/./g, "#") + lastFour;
-};
+}
 
 // TEST CASE
 const test1 = maskify("4556364607935616");

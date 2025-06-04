@@ -22,10 +22,10 @@ Example: (input --> output)
 */
 
 // SOLUTION
-const dnaStrand = (dna) => {
+function dnaStrand(dna) {
   const mapping = { A: "T", T: "A", G: "C", C: "G" };
   return dna.replace(/[ATCG]/g, (c) => mapping[c]);
-};
+}
 
 // TEST CASE
 const test1 = dnaStrand("AAAA");

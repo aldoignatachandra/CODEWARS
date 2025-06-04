@@ -16,9 +16,9 @@ Example: (Input --> Output)
 */
 
 // SOLUTION
-const isIsogram = (str) => {
+function isIsogram(str) {
   return new Set(str.toLowerCase()).size === str.length;
-};
+}
 
 // TEST CASE
 const test1 = isIsogram("Dermatoglyphics");

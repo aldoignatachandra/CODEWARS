@@ -9,9 +9,9 @@ String will never be empty and you do not need to account for different data typ
 */
 
 // SOLUTION
-const findShort = (s) => {
+function findShort(s) {
   return Math.min(...s.split(" ").map((word) => word.length));
-};
+}
 
 // TEST CASE
 const test1 = findShort("bitcoin take over the world maybe who knows perhaps");

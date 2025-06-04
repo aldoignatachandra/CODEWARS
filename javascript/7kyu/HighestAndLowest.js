@@ -24,7 +24,7 @@ function highAndLow(numbers) {
   return `${Math.max(...num)} ${Math.min(...num)}`;
 }
 
-// SOLUTION ( lONG Version )
+// SOLUTION ( Long Version )
 function highAndLow(numbers) {
   const num = numbers.split(" ").map(Number);
   let maxNum = 0;

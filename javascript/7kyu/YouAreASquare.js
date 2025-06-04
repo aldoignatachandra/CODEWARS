@@ -21,10 +21,10 @@ Examples
 */
 
 // SOLUTION
-const isSquare = (n) => {
+function isSquare(n) {
   if (n < 0) return false;
   return Math.sqrt(n) % 1 === 0;
-};
+}
 
 // TEST CASE
 const test1 = isSquare(-1);

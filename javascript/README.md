@@ -30,29 +30,32 @@
 | No  | Challenge                                                                                                                                          |  Solution  |
 | :-: | :------------------------------------------------------------------------------------------------------------------------------------------------- | :--------: |
 |  1  | [Beginner Series #3 Sum Of Numbers](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/BeginnerSeries#3SumOfNumbers.js)     | JavaScript |
-|  2  | [Complementary Dna](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/ComplementaryDna.js)                                 | JavaScript |
-|  3  | [Credit Card Mask](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/CreditCardMask.js)                                    | JavaScript |
-|  4  | [Descending Order](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/DescendingOrder.js)                                   | JavaScript |
-|  5  | [Disemvowel Trolls](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/DisemvowelTrolls.js)                                 | JavaScript |
-|  6  | [Exes And Ohs](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/ExesAndOhs.js)                                            | JavaScript |
-|  7  | [Get The Middle Character](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/GetTheMiddleCharacter.js)                     | JavaScript |
-|  8  | [Highest And Lowest](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/HighestAndLowest.js)                                | JavaScript |
-|  9  | [Isograms](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/Isograms.js)                                                  | JavaScript |
-| 10  | [List Filtering](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/ListFiltering.js)                                       | JavaScript |
-| 11  | [Mumbling](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/Mumbling.js)                                                  | JavaScript |
-| 12  | [Shortest Word](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/ShortestWord.js)                                         | JavaScript |
-| 13  | [Square Every Digit](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/SquareEveryDigit.js)                                | JavaScript |
-| 14  | [Strings Strings Strings](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/StringsStringsStrings.js)                      | JavaScript |
-| 15  | [Sum Of Two Lowest Positive Integers](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/SumOfTwoLowestPositiveIntegers.js) | JavaScript |
-| 16  | [Vowel Count](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/VowelCount.js)                                             | JavaScript |
-| 17  | [You Are A Square](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/YouAreASquare.js)                                     | JavaScript |
-
-#
+|  2  | [Categorize New Member](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/CategorizeNewMember.js)                          | JavaScript |
+|  3  | [Complementary Dna](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/ComplementaryDna.js)                                 | JavaScript |
+|  4  | [Credit Card Mask](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/CreditCardMask.js)                                    | JavaScript |
+|  5  | [Descending Order](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/DescendingOrder.js)                                   | JavaScript |
+|  6  | [Disemvowel Trolls](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/DisemvowelTrolls.js)                                 | JavaScript |
+|  7  | [Exes And Ohs](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/ExesAndOhs.js)                                            | JavaScript |
+|  8  | [Friend Or Foe ?](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/FriendOrFoe?.js)                                       | JavaScript |
+|  9  | [Get The Middle Character](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/GetTheMiddleCharacter.js)                     | JavaScript |
+| 10  | [Highest And Lowest](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/HighestAndLowest.js)                                | JavaScript |
+| 11  | [Isograms](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/Isograms.js)                                                  | JavaScript |
+| 12  | [List Filtering](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/ListFiltering.js)                                       | JavaScript |
+| 13  | [Mumbling](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/Mumbling.js)                                                  | JavaScript |
+| 14  | [Shortest Word](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/ShortestWord.js)                                         | JavaScript |
+| 15  | [Square Every Digit](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/SquareEveryDigit.js)                                | JavaScript |
+| 16  | [Strings Strings Strings](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/StringsStringsStrings.js)                      | JavaScript |
+| 17  | [Sum Of Two Lowest Positive Integers](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/SumOfTwoLowestPositiveIntegers.js) | JavaScript |
+| 18  | [Two To One](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/TwoToOne.js)                                                | JavaScript |
+| 19  | [Vowel Count](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/VowelCount.js)                                             | JavaScript |
+| 20  | [You Are A Square](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/7kyu/YouAreASquare.js)                                     | JavaScript |
 
 ### 6 Kyu
 
 | No  | Challenge                                                                                                                  |  Solution  |
 | :-: | :------------------------------------------------------------------------------------------------------------------------- | :--------: |
-|  1  | [Multiples Of 3 Or 5](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/6kyu/MultiplesOf3Or5.js)        | JavaScript |
-|  2  | [Stop Spinning My Words](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/6kyu/StopSpinningMyWords.js) | JavaScript |
-|  3  | [Who Likes It](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/6kyu/WhoLikesIt.js)                    | JavaScript |
+|  1  | [Array Diff](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/6kyu/ArrayDiff.js)                       | JavaScript |
+|  2  | [Find The Odd Int](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/6kyu/FindTheOddInt.js)             | JavaScript |
+|  3  | [Multiples Of 3 Or 5](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/6kyu/MultiplesOf3Or5.js)        | JavaScript |
+|  4  | [Stop Spinning My Words](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/6kyu/StopSpinningMyWords.js) | JavaScript |
+|  5  | [Who Likes It](https://github.com/aldoignatachandra/CODEWARS/blob/master/javascript/6kyu/WhoLikesIt.js)                    | JavaScript |

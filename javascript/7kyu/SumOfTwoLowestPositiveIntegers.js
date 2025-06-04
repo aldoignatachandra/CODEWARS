@@ -13,10 +13,10 @@ For example, when an array is passed like [19, 5, 42, 2, 77], the output should 
 */
 
 // SOLUTION
-const sumTwoSmallestNumbers = (numbers) => {
+function sumTwoSmallestNumbers(numbers) {
   const numOrder = numbers.sort((a, b) => a - b);
   return numOrder[0] + numOrder[1];
-};
+}
 
 // TEST CASE
 const test1 = sumTwoSmallestNumbers([5, 8, 12, 19, 22]);

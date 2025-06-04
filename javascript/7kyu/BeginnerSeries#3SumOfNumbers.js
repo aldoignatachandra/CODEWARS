@@ -19,12 +19,12 @@ Examples (a, b) --> output (explanation)
 */
 
 // SOLUTION
-const getSum = (a, b) => {
+function getSum(a, b) {
   const lower = Math.min(a, b);
   const higher = Math.max(a, b);
   const n = higher - lower + 1;
   return (n * (lower + higher)) / 2;
-};
+}
 
 // TEST CASE
 const test1 = getSum(0, -1);

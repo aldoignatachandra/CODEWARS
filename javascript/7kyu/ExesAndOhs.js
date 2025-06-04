@@ -17,7 +17,7 @@ XO("zzoo") => false
 */
 
 // SOLUTION
-const XO = (str) => {
+function XO(str) {
   const lowerStr = str.toLowerCase();
   let countX = 0;
   let countO = 0;
@@ -28,7 +28,7 @@ const XO = (str) => {
   }
 
   return countX === countO;
-};
+}
 
 // TEST CASE
 const test1 = XO("xo");
